@@ -14,7 +14,13 @@ Graph Algorithm
 
 ## What was the key point and the hard part?
 
+Collect all location of wolfs. 
 
+After that , starting from fist wolf's location(sequence does not matter) , search (i+1) , (i-1) , (j+1) , (j-1) if it is possible(range check)
+
+Searching them by using visit array and count the number of wolf and sheep.
+
+After searching is done, calculate (wolf >= sheep -> wolf survive , wolf < sheep -> sheep survivie) and reset the number of counted sheep and wolf.
 
 ## Where can I get more help, if I need it?
 
